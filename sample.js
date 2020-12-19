@@ -14,6 +14,22 @@ import { Redirect } from "react-router-dom";
 
 class renderHome extends Component {
   render() {
+    const repeated1 = {
+      name: "Sammy",
+      age: "99",
+    };
+    const repeated2 = {
+      name: "Sammy",
+      age: "99",
+    };
+    const repeated3 = {
+      name: "Sammy",
+      age: "99",
+    };
+    const repeated4 = {
+      name: "Sammy",
+      age: "99",
+    };
     return (
       <Container className="container-spacing home-container" fluid={true}>
         <Header />
